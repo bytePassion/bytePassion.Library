@@ -1,4 +1,4 @@
-![bytePassion_Logo](/OpenQuoridorFramework/OQF.Resources/Images/bytePassionLogo.png)
+![bytePassion_Logo](/bytePassionLogo.png)
 
 # bytePassion library (1.0)
 
