@@ -27,7 +27,7 @@ If you want to contribute, contact a developer via E-Mail or Gitter-Chat
 
 ---
 
-It's planned to bring this library to nuget.
+You can find this Library at nuget.org by the id "bytePassion.Library".
 
 ---
 
