@@ -24,7 +24,7 @@ namespace bytePassion.Lib.ConcurrencyLib
 			takeTimeoutTimer = new Timer(TimerTick, null,
 										 TimeSpan.FromMilliseconds(takeTimeout),
 										 TimeSpan.FromMilliseconds(takeTimeout));
-			
+
 		}
 
 		private void TimerTick (object state)
@@ -32,7 +32,15 @@ namespace bytePassion.Lib.ConcurrencyLib
 			lock (queue)
 			{
 				Monitor.PulseAll(queue);
-			}			
+			}
+		}
+
+		public void Clear ()
+		{
+			lock (queue)
+			{
+				queue.Clear();
+			}
 		}
 
 		public void Put (T item)
@@ -63,7 +71,7 @@ namespace bytePassion.Lib.ConcurrencyLib
 
 				return queue.Dequeue();
 			}
-		}		
+		}
 
 		protected override void CleanUp ()
 		{

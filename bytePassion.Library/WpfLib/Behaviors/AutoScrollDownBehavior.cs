@@ -5,7 +5,7 @@ using System.Windows.Interactivity;
 
 namespace bytePassion.Lib.WpfLib.Behaviors
 {
-	public class AutoScollDownBehavior : Behavior<ListView>
+	public class ListViewAutoScollDownBehavior : Behavior<ListView>
 	{
 		protected override void OnAttached ()
 		{

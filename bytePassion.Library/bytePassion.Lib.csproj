@@ -127,6 +127,7 @@
     <Compile Include="Types\SemanticTypes\XCoord.cs" />
     <Compile Include="Types\SemanticTypes\YCoord.cs" />
     <Compile Include="Types\SemanticTypes\ZCoord.cs" />
+    <Compile Include="Utils\IApplicationLifeCycle.cs" />
     <Compile Include="Utils\ImageLoader.cs" />
     <Compile Include="Utils\UIElementToImage.cs" />
     <Compile Include="Utils\Workflow\IllegalStateTransitionException.cs" />
@@ -144,9 +145,11 @@
     <Compile Include="WpfLib\Behaviors\AutoScrollDownBehavior.cs" />
     <Compile Include="WpfLib\Behaviors\GetFocusOnLoadedBehavior.cs" />
     <Compile Include="WpfLib\Behaviors\HeightWidthReportingBehavior.cs" />
+    <Compile Include="WpfLib\Behaviors\KeepQuadratic.cs" />
     <Compile Include="WpfLib\Behaviors\MoveHorizontalBehavior.cs" />
     <Compile Include="WpfLib\Behaviors\ObjectDragBehavior.cs" />
     <Compile Include="WpfLib\Behaviors\ObjectDropBehavior.cs" />
+    <Compile Include="WpfLib\Behaviors\ScrollViewerAutoScrollDownBehavior.cs" />
     <Compile Include="WpfLib\CommandExecutingBehaviors\ExecuteCommandOnMouseRightButtonUp.cs" />
     <Compile Include="WpfLib\CommandExecutingBehaviors\ExecuteCommandOnMouseRightButtonDown.cs" />
     <Compile Include="WpfLib\CommandExecutingBehaviors\ExecuteCommandOnMouseLeftButtonDown.cs" />
@@ -235,7 +238,6 @@
     <Compile Include="WpfLib\SharedResourceDictionary.cs" />
     <Compile Include="WpfLib\ViewModelBase\IViewModel.cs" />
     <Compile Include="WpfLib\ViewModelBase\ViewModel.cs" />
-    <Compile Include="ZmqUtils\IpAddressCatcher.cs" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="WpfLib\Dialogs\Input\InputBoxWindow\InputBoxWindow.xaml">
