@@ -2,7 +2,6 @@
 using System.Windows.Controls;
 using System.Windows.Interactivity;
 
-
 namespace bytePassion.Lib.WpfLib.Behaviors
 {
 	public class ListViewAutoScollDownBehavior : Behavior<ListView>

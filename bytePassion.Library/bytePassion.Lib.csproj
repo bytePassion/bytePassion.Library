@@ -142,7 +142,7 @@
     <Compile Include="WpfLib\Adorner\FrameworkElementAdorner.cs" />
     <Compile Include="WpfLib\Adorner\UIElementAdorner.cs" />
     <Compile Include="WpfLib\Behaviors\AlwaysScrollDownBehavior.cs" />
-    <Compile Include="WpfLib\Behaviors\AutoScrollDownBehavior.cs" />
+    <Compile Include="WpfLib\Behaviors\ListViewAutoScollDownBehavior.cs" />
     <Compile Include="WpfLib\Behaviors\GetFocusOnLoadedBehavior.cs" />
     <Compile Include="WpfLib\Behaviors\HeightWidthReportingBehavior.cs" />
     <Compile Include="WpfLib\Behaviors\KeepQuadratic.cs" />
